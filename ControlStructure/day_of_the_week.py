@@ -1,0 +1,1 @@
+#to do week of the day using list 
