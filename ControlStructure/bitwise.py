@@ -13,4 +13,4 @@ print("getTrue | getTrue", getTrue() | getFalse())
 print("getTrue or getTrue", getTrue() or getFalse())
 
 print('2^2', 2^2)
-print('2 ^ 3', 2 ^3)
+print('2 ^ 3', 2 ^3) 
