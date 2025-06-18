@@ -1,7 +1,7 @@
-my_dict = {"user1":"Aung Aung","user2":"Maung Maung"}
+my_dict = {"user1": "Mg Mg", "user2": "Aung Aung"}
 
 for i in my_dict:
-    print("my dict",i)
+    print("item", i)
 
-for k,v in my_dict.items():
-    print("Key =>", k, "value =>",v)
+for key, value in my_dict.items():
+    print("key =>", key, "value =>", value)

@@ -1,18 +1,20 @@
-num_of_sub = int(input("Enter number of subjects"))
-marks = []
+# num_of_sub = int(input("Enter number of subjects"))
+# # marks = []
 
-pass_mark = 40
+# pass_mark = 40
+# is_pass = True
 
-for i in range(num_of_sub):
-    mark = float(input("Enter mark for subjects" + str(i) + " "))
-    marks.append(mark)
+# for i in range(num_of_sub):
+#     mark = float(input("Enter mark for subjects" + str(i) + " "))
+#     is_pass = is_pass and mark >= 40
 
-is_pass = True
-for m in marks:
-    is_pass = is_pass and m >= 40
-    print(m)
+# if is_pass:
+#     print("Pass the exam")
+# else:
+#     print("Fail the exam")
 
-if is_pass:
-    print("Pass the exam")
+x = int(input("Enter your number"))
+if x % 2:
+    print("Even")
 else:
-    print("Fail the exam")
+    print("Odd")
